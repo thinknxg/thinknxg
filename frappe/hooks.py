@@ -3,15 +3,15 @@ import os
 from . import __version__ as app_version
 
 app_name = "frappe"
-app_title = "Framework"
-app_publisher = "Frappe Technologies"
+app_title = "thinknxg Framework"
+app_publisher = "thinknxg Technologies"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"
-app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"
+app_logo_url = "/assets/frappe/images/thinknxg-logo.svg"
 develop_version = "15.x.x-develop"
 app_home = "/app/build"
 
-app_email = "developers@frappe.io"
+app_email = "sales@kreatao.com"
 
 before_install = "frappe.utils.install.before_install"
 after_install = "frappe.utils.install.after_install"
