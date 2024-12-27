@@ -3,7 +3,7 @@ import os
 from . import __version__ as app_version
 
 app_name = "frappe"
-app_title = "thinknxg Framework"
+app_title = "thinknxg"
 app_publisher = "thinknxg Technologies"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"
