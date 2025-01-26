@@ -21,7 +21,7 @@ frappe.ui.misc.about = function () {
 					<h4>${__("Installed Apps")}</h4>
 					<div id='about-app-versions'>${__("Loading versions...")}</div>
 					<hr>
-					<p class='text-muted'>${__("&copy; © Kreatao Technologies and Contributors.")} </p>
+					<p class='text-muted'>${__("&copy; Kreatao Technologies and Contributors.")} </p>
 					</div>`,
 				frappe.app
 			)
