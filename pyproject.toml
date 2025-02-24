@@ -91,10 +91,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://frappe.io/framework"
-Repository = "https://github.com/frappe/frappe.git"
-Documentation = "https://docs.frappe.io/framework"
-"Bug Reports" = "https://github.com/frappe/frappe/issues"
+Homepage = "https://frappeframework.com/"
+Repository = "https://github.com/thinknxg/thinknxg.git.git"
+"Bug Reports" = "https://github.com/thinknxg/thinknxg.git/issues"
 
 [build-system]
 requires = ["flit_core >=3.4,<4"]
