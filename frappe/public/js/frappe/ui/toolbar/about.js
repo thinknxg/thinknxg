@@ -1,11 +1,14 @@
 frappe.provide("frappe.ui.misc");
 frappe.ui.misc.about = function () {
-	if (!frappe.ui.misc.about_dialog) {
-		var d = new frappe.ui.Dialog({ title: __("thinkNXG") });
+	if (frappe.ui.misc.about_dialog) {
+		frappe.ui.misc.about_dialog.show();
+		return;
+	}
 
-		$(d.body).html(
-			repl(
-				`<div>
+	const dialog = new frappe.ui.Dialog({ title: __("thinkNXG") });
+
+	$(dialog.body).html(
+		`<div>
 					<p>${__("Open Source Applications for the Web")}</p>
 					<p><i class='fa fa-globe fa-fw'></i>
 						${__("Website")}:
@@ -22,10 +25,8 @@ frappe.ui.misc.about = function () {
 					<div id='about-app-versions'>${__("Loading versions...")}</div>
 					<hr>
 					<p class='text-muted'>${__("&copy; Kreatao Technologies and Contributors.")} </p>
-					</div>`,
-				frappe.app
-			)
-		);
+					</div>`
+	);
 
 	frappe.ui.misc.about_dialog = dialog;
 
